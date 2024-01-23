@@ -1,0 +1,71 @@
+body {
+    font-family: Verdana;
+    text-align: center;
+    background-image: url('Aim trainer game background.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+h1 {
+    color: #f63e57;
+    font-size: 3;
+    background-color: #101822;
+    padding: 10px;
+    animation: fadeInUp 1s ease-out;
+}
+
+button {
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px ridge #f63e57;
+    background-color: #101822;
+    color: #f63e57;
+    font-family: 'Verdana', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    animation: scaleIn 0.8s ease-out;
+}
+
+#optionsBtn,
+#statsBtn {
+    background-color: #101822;
+    color: #f63e57;
+}
+
+button:hover,
+#optionsBtn:hover,
+#statsBtn:hover {
+    background-color: #bd3944;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0.8);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}

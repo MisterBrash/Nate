@@ -1,0 +1,114 @@
+body {
+    font-family: Verdana;
+    text-align: center;
+    background-image: url('Aim trainer game background.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+h1 {
+    color: #f63e57;
+    font-size: 3;
+    background-color: #101822;
+    padding: 10px;
+    animation: fadeInUp 1s ease-out;
+}
+
+form {
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid #f63e57;
+    background-color: #101822;
+    padding: 10px;
+    border-radius: 5px;
+    animation: scaleIn 0.8s ease-out;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #f63e57;
+    border-radius: 3px;
+    background-color: #101822;
+    color: white;
+    font-family: Verdana;
+}
+
+input[type="submit"] {
+    background-color: #f63e57;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    animation: scaleIn 0.8s ease-out;
+}
+
+button#menu {
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px ridge #f63e57;
+    background-color: #101822;
+    color: #f63e57;
+    font-family: 'Verdana', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    animation: scaleIn 0.8s ease-out;
+}
+
+#optionsBtn,
+#statsBtn {
+    background-color: #101822;
+    color: #f63e57;
+    animation: scaleIn 0.8s ease-out;
+}
+
+#optionsBtn,
+#statsBtn {
+    background-color: #101822;
+    color: #f63e57;
+}
+
+button:hover,
+#optionsBtn:hover,
+#statsBtn:hover {
+    background-color: #bd3944;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0.8);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}

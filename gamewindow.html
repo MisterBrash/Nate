@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<center>
+
+  <head>
+    <title>Animation Example</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <h1 class="red">
+      AIM TRAINER by Nate
+    </h1>
+
+    <h3>
+      <div>Time Remaining: <span id="time_remaining">0</span></div>
+    </h3>
+
+    <canvas id="canvas" class="canvas" width="480" height="480"></canvas>
+
+    <h3>
+      <div>Score: <span id="score">0</span></div>
+    </h3>
+    <h3>
+      <div>Accuracy: <span id="accuracy">0</span>%</div>
+    </h3>
+    <h3>
+      <div>Total Hits: <span id="hits">0</span></div>
+    </h3>
+    <div class="crosshair" id="crosshair">
+      <img src="crosshair.png" width="32" height="32">
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</center>
+
+</html>

@@ -1,0 +1,30 @@
+.canvas {
+  border:8px ridge #f63e57;
+  fill: #101822
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #101822;
+  background-size: cover;
+  background-position: center;
+  cursor: none;
+}
+
+h1 {
+  font-family: verdana;
+  color: #f63e57;
+  background-color: #101822;
+}
+
+.crosshair {
+position: absolute;
+pointer-events: none; /*Prevents image from messing with click events and mouse interaction */
+transform: translate(-50%, -50%);
+}
+
+h3 {
+  font-family: Verdana;
+  color: white;
+}

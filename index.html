@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="menu.css">
+  <title>HTML AIM TRAINER by Nate</title>
+</head>
+
+<body>
+  <header>
+    <h1>HTML AIM TRAINER by Nate</h1>
+  </header>
+
+  <button id="start">Start</button>
+  <button id="options">Options</button>
+  <button id="stats">Stats</button>
+
+  <script>
+    document.getElementById("start").addEventListener("click", goToStart)
+    document.getElementById("options").addEventListener("click", goToOptions)
+    document.getElementById("stats").addEventListener("click", goToStats)
+
+    function goToStart() {
+      window.location.href = 'gamewindow.html'
+    }
+    function goToOptions() {
+      window.location.href = 'options.html'
+    }
+    function goToStats() {
+      window.location.href = 'stats.html'
+    }
+  </script>
+</body>
+
+</html>
